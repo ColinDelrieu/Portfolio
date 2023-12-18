@@ -134,11 +134,13 @@
           </div>
           <p>
             La principale difficulté de ce site était l'optimisation du temps de calcul du chemin le plus court. En
-            effet, si l'on arrive sur un site et que l'on doit attendre plusieurs pour avoir le résultat, cela peut
+            effet, si l'on arrive sur un site et que l'on doit attendre plusieurs heures pour avoir le résultat, cela
+            peut
             être très frustrant. Pour cela, nous avons utilisé un algorithme de type A* qui permet de trouver le
-            chemin le plus court en un temps raisonnable ( de l'ordre de quelques secondes ). Nous avons également
+            chemin le plus court en un temps raisonnable ( de l'ordre de quelques secondes ). De plus nous avons utilisé
+            un cache afin de ne pas recalculé les trajets ou portion déjà calculé. Nous avons également
             utilisé l'API de google maps pour afficher la carte de France et les trajets. Parmi les fonctionnalités
-            secondaires il y a, des details sur une ville cherché (superficie, nombre d'habitants...) ainsi qu'une breve
+            secondaires il y a, des details sur une ville cherché (superficie, nombre d'habitants...) ainsi qu'une brève
             description Wikipedia de la ville, et un historique des trajets déjà calculés.
           </p>
 
